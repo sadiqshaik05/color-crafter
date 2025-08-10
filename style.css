@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2013/07/19/00/18/splashing-165192_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px; 
+}
+#h{
+    font-size: 60px;
+    color: red;
+    text-shadow: 5px 5px 5px black;
+    text-decoration: underline;
+    text-decoration-color: magenta;
+}
+#container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;  
+}
+#font-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 5px;
+    text-shadow: 2px 2px 2px yellow;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px blue;
+}
+#background-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 5px;
+    text-shadow: 2px 2px 2px yellow;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px purple
+}
+#background-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 5px;
+    text-shadow: 2px 2px 2px yellow;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px midnightblue;
+}
+#f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding:5px;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rebeccapurple;
+}
+#font-style{
+    border: 2px solid black;
+    padding: 5px;
+    width:400px;
+    height: 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    align-items: center;
+}
+#font-style h1{
+    cursor: pointer;
+}
+#text{
+    width: 200px;
+    height: 180px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+   
+}
+button{
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+input type{
+    text-align: center;
+}

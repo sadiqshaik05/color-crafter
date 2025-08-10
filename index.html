@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>COLOR CRAFTERS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="main">
+            <h1 id="h">COLORS CRAFTERS</h1>
+            <div id="container">
+                <div id="font-color">
+                     <h1>FONT COLORS</h1>
+                     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; column-gap: 10px; row-gap: 10px; ">
+                        <button style="background-color: blue;" onclick="changeFontColor('blue')"></button>
+                        <button style="background-color: lawngreen;" onclick="changeFontColor('lawngreen')"></button>
+                        <button style="background-color: whitesmoke;"onclick="changeFontColor('whitesmoke')" ></button>
+                        <button style="background-color: cornflowerblue;" onclick="changeFontColor('cornflowerblue')"></button>
+                        <button style="background-color: bisque;" onclick="changeFontColor('bisque')"></button>
+                        <button style="background-color: darkviolet" onclick="changeFontColor('darkviolet')"></button>
+                        <button style="background-color: magenta;" onclick="changeFontColor('magenta')"></button>
+                        <button style="background-color: indianred;" onclick="changeFontColor('indianred')"></button>
+                        <button style="background-color: cyan;" onclick="changeFontColor('cyan')"></button>
+                        <input type="color" oninput="changeFontColor(event.target.value)">
+                     </div>
+                </div>
+
+                <div id="background-color">
+                     <h1>BACKGROUND COLORS</h1>
+                     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; column-gap: 10px; row-gap: 10px; ">
+                        <button style="background-color: antiquewhite;" onclick="changeBgColor('antiquewhite')"></button>
+                        <button style="background-color: paleturquoise;" onclick="changeBgColor('paleturquoise')"></button>
+                        <button style="background-color: black;" onclick="changeBgColor('black')"></button>
+                        <button style="background-color: yellow;" onclick="changeBgColor('yellow')"></button>
+                        <button style="background-color: aquamarine;" onclick="changeBgColor('aquamarine')"></button>
+                        <button style="background-color: gainsboro;" onclick="changeBgColor('gainsboro')"></button>
+                        <button style="background-color: magenta;" onclick="changeBgColor('magenta')"></button>
+                        <button style="background-color: powderblue;" onclick="changeBgColor('powderblue')"></button>
+                        <button style="background-color: lightcoral;" onclick="changeBgColor('lightcoral')"></button>
+                        <input type="color" oninput="changeBgColor(event.target.value)">
+                     </div>
+                </div>
+
+                <div id="background-images">
+                     <h1>BACKGROUND IMAGES</h1>
+                     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; column-gap: 10px; row-gap: 10px; ">
+                        <button style="background-image:url('bg1.jpg');"
+                        onclick="changeBgImage('bg1.jpg')"></button>
+                        <button style="background-image:url('bg2.jpg');"
+                        onclick="changeBgImage('bg2.jpg')"></button>
+                        <button style="background-image:url('bg3.jpg');"
+                        onclick="changeBgImage('bg3.jpg')"></button>
+                        <button style="background-image:url('bg4.jpg');"
+                        onclick="changeBgImage('bg4.jpg')"></button>
+                        <button style="background-image:url('bg5.jpg');"
+                        onclick="changeBgImage('bg5.jpg')"></button>
+                        <button style="background-image:url('bg6.jpg');"
+                        onclick="changeBgImage('bg6.jpg')"></button>
+                        <button style="background-image:url('bg7.jpg');"
+                        onclick="changeBgImage('bg7.jpg')"></button>
+                        <button style="background-image:url('bg8.jpg');"
+                        onclick="changeBgImage('bg8.jpg')"></button>
+                        <button style="background-image:url('bg9.jpg');"
+                        onclick="changeBgImage('bg9.jpg')"></button>
+                        <button style="background-image:url('bg10.jpg');"
+                        onclick="changeBgImage('bg10.jpg')"></button>
+                     </div>
+                </div>
+                <div id="f">
+                    <h1>FONT STYLES</h1>
+                    <div id="font-style">
+                        <h1 style="font-family: 'Courier New', Courier, monospace;" onclick="changeFontFamily('Courier New')">courier</h1>
+                        <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" onclick="changeFontFamily('Franklin Gothic Medium')">franklin</h1>
+                        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" onclick="changeFontFamily('Gill Sans')" >gill sans</h1>
+                        <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" onclick="changeFontFamily('Segoe UI')">seorge</h1>
+                        <h1 style="font-family: 'Times New Roman', Times, serif;" onclick="changeFontFamily('Times New Roman')">timesnewroman</h1>
+                        <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" onclick="changeFontFamily('Trebuchet MS')">trebuchet</h1>
+                        <h1 style="font-family: Arial, Helvetica, sans-serif;" onclick="changeFontFamily('Arial')">arial</h1>
+                        <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" onclick="changeFontFamily('Cambria')">cambria</h1>
+                        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;" onclick="changeFontFamily('Georgia')">georgia</h1>
+                        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;" onclick="changeFontFamily(' Verdana')">verdana</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div id="text-editor">
+                    <h1 id="text" name="" contenteditable="true">
+                        TYPE THE TEXT HERE.....................
+                    </h1>
+            </div>
+
+            <div>
+                <button onclick="alert('we are working on this feature')" style="width: fit-content;
+                padding: 5px; background-color: red; color: white; border: none; border-radius: 10px;">download</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
